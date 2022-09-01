@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    color: #FFF;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/bg_image.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top 269px right ; 
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 14px;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 44px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 63px;
+    padding-bottom: 41px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #AAA;
+}
+
+.book {
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 591px;
+}
+
+.book_description {
+    margin: 0 0 18px;
+    white-space: pre;
+    max-width: 355px;
+    text-align: left;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 22px;
+    position: relative;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  margin-bottom: -2px;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFBFB66;
+  opacity: 0.4;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.translate_button {
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.25s;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 13px 31px;
+    font-weight: 400;
+}
+
+.translate_button:hover{
+    background-color: #C5C5C5;
+}
