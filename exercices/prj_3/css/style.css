@@ -1,0 +1,99 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    background-color: #000;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header__block {
+    width: 20%;
+}
+
+.main__menu {
+    display: flex;
+}
+
+.nav__link {
+    margin-right: 35px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+
+.nav__link:after {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    opacity: 0;
+}
+
+.nav__link.active:after {
+    opacity: 1;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+    transition: opacity 0.5s ease-in, width 0.5s ease-out;
+}
+
+.header__lng {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__lng a {
+    margin-right: 8px;
+    text-decoration: none;
+    color: #B7B7B7;
+    font-weight: 600;
+}
+
+.header__lng-link.active {
+    color: #FFF;
+}
+
+.header__lng a:last-child {
+    margin-right: 0;
+}
+/* Header ends */
+
+.intro {
+    background: url('../img/header_bg.png');
+}
+

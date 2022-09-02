@@ -16,10 +16,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    margin-bottom: 14px;
     font-size: 36px;
-    font-weight: 700px;
-    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 14px;
 }
 
 .container {
@@ -44,9 +43,6 @@ h1 {
     color: #AAA;
 }
 
-.book {
-}
-
 .header_content {
     display: flex;
     justify-content: space-between;
@@ -54,6 +50,14 @@ h1 {
 
 .description {
     width: 591px;
+}
+
+.book_name {
+    text-decoration: none;
+    color: #fff;
+    eont-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
 }
 
 .book_description {
