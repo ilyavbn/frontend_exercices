@@ -163,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #DB2512;
     text-transform: none;
     transition: background-color .2s ease;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
 }
 
 .btn:hover {
@@ -406,6 +410,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 20px;
     flex: 1;
     position: relative;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .input {
@@ -420,10 +426,62 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
 }
 
+.input:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
 .label {
     letter-spacing: 0.15em;
     color: #FFF;
     position: absolute;
     top: 0;
     left: 20px;
+    pointer-events: none;
+    transition: all .2s ease;
+}
+
+.textarea {
+    max-height: 130px;
+    resize: vertical;
+    padding: 9px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    font-family: inherit;
+    font-size: 15px;
+    color: #FFF;
+    background-color: transparent;
+}
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__soc-link {
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+.copyright {
+    font-weight: 400;
+    letter-spacing: 0.15em;
 }
