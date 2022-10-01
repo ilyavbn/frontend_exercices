@@ -143,6 +143,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .intro__title {
+    margin: 16px 0 20px;
     font-size: 48px;
     font-weight: 300;
     font-family: 'Quicksand', 'sans-serif';
@@ -182,3 +183,33 @@ h1, h2, h3, h4, h5 {
 
 
 /* INTRO ENDS */
+
+/* SPONSORS SECTION STARTS */
+
+.sponsors__wrapper {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.sponsors__block a {
+    margin-right: 74px;
+}
+
+.sponsors__block a:last-child {
+    margin-right: 0;
+}
+
+.sponsors__img {
+}
+
+.sponsors__link {
+    display:inline-block;
+}
+
+
+/* SPONSORS SECTION ENDS */

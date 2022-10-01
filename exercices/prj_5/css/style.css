@@ -1,0 +1,181 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER STARTS */
+
+
+.logo__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__text h1 {
+    margin: 80px 0 60px;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.main__menu__wrapper {
+}
+
+.main__menu {
+    margin-bottom: 35px;
+}
+
+.nav__link {
+    margin-right: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.main__menu a:last-child {
+    margin-right: 0;
+}
+
+
+.logo {
+    margin-right: 80px;
+}
+
+.user__menu__block {
+    display: flex;
+    height: 100px;
+    align-items: flex-start;
+}
+
+.basket__menu__element {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.basket__menu__element:last-child {
+    margin-right: 0;
+}
+
+.basket__element_caption {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.basket__img {
+    width: 33px;
+    height: 33px;
+}
+
+/* HEADER ENDS */
+
+/* INTRO STARTS */
+
+.intro {
+}
+
+.intro__content {
+    margin: 75px 0 75px;
+    display: block;
+    text-align: center;
+}
+
+.intro__text {
+    max-width: 800px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 34px;
+    margin-bottom: 35px;
+}
+
+.categories__btn {
+    display: inline-flex;
+    border-radius: 25px;
+    min-width: 370px;
+    height: 70px;
+    background-color: #FFDE00;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    
+    
+}
+
+.intro__slider {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.intro__slide {
+    width:200px;
+    height: 200px;
+    background-color: #FFFAE7;
+
+    border: 1px solid #EFEFEF;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.intro__slider-img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+
+}
+.slider__image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* INTRO ENDS */
