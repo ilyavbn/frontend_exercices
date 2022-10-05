@@ -21,6 +21,36 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
+
+/* MAIN STYLES STARTS*/
+
+.block__subtitle {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #3D4F9F;
+}
+
+.block__title {
+    margin: 16px 0 20px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Quicksand', 'sans-serif';
+    color: #3D4F9F;
+}
+
+.block__title span {
+    font-weight: 400;
+}
+
+.block__text {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.9em;
+}
+
 .btn {
     height: 43px;
     padding: 0 15px;
@@ -43,6 +73,8 @@ h1, h2, h3, h4, h5 {
     color: #D2E1FF;
     background-color: #3A79FF;
 }
+
+/* MAIN STYLES ENDS*/
 
 /* HEADER STARTS */
 
@@ -213,3 +245,8 @@ h1, h2, h3, h4, h5 {
 
 
 /* SPONSORS SECTION ENDS */
+
+
+/* APP VIDEO SECTION STARTS */
+
+/* APP VIDEO SECTION STARTS */
