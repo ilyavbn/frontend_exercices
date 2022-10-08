@@ -24,13 +24,7 @@ h1, h2, h3, h4, h5 {
 
 /* MAIN STYLES STARTS*/
 
-.text--white {
-    color: #FFF;
-}
 
-.text--blue {
-    color: #5E80FF;
-}
 
 .block__subtitle {
     margin-bottom: 25px;
@@ -66,6 +60,18 @@ h1, h2, h3, h4, h5 {
 
 .block__text-14 {
     font-size: 14px;
+}
+
+.block__text-12 {
+    font-size: 12px;
+}
+
+.text--white {
+    color: #FFF;
+}
+
+.text--blue {
+    color: #5E80FF;
 }
 
 .btn {
@@ -114,7 +120,7 @@ h1, h2, h3, h4, h5 {
     padding: 13px 27px ;
     border: 1px solid #D1D1E4;
     color: #D1D1E4;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .btn__o-gray-nb {
@@ -127,6 +133,11 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
 }
 
+.btn__o-white {
+    color: #565F82;
+    background-color: #FFF;
+}
+
 .btn--main {
     padding: 13px 26px ;
     color: #3A79FF;
@@ -137,6 +148,25 @@ h1, h2, h3, h4, h5 {
 .btn--main:hover {
     color: #D2E1FF;
     background-color: #3A79FF;
+}
+
+.btn--acc {
+    background-color: #E8ECF4;
+    color: #7382A3;
+    border: none;
+    font-weight: 500;
+}
+
+.no-l-b {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.no-r-b {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 /* MAIN STYLES ENDS*/
@@ -249,6 +279,10 @@ h1, h2, h3, h4, h5 {
 
 .intro__title span {
     font-weight: 500;
+}
+
+.text--white {
+    color: #FFF;
 }
 
 .intro__text {
@@ -583,7 +617,7 @@ h1, h2, h3, h4, h5 {
     padding: 63px 35px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #FFF;
     border: 1px solid #D8E3FE;
     box-shadow: 0px 15px 50px #EFF4FF;
@@ -596,6 +630,7 @@ h1, h2, h3, h4, h5 {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 13px;
     grid-row-gap: 9px;
+    margin-right: 67px;
 }
 
 .img_1 {
@@ -621,7 +656,163 @@ h1, h2, h3, h4, h5 {
 .blog__actions a:first-child {
     margin-right: 3px;
 }
-
-
-
 /* BLOG SECTION ENDS */
+
+
+/* QUOTES SECTION STARTS */
+
+.quotes {
+    padding: 140px 0 140px;
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+
+.quotes__container {
+    max-width: 888px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.quotes__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.quotes__block {
+    max-width: 425px;
+}
+
+.quotes__text__block {
+    max-width: 333px;
+}
+
+.quotes__block__wrapper {
+    width: 100%;
+    padding: 47px 70px;
+    background-color: #FFF;
+    border: 1px solid #D8E3FE;
+    box-shadow: 0px 5px 50px #F3F5FA;
+    filter: drop-shadow(0px 15px 50px #D4DCF1);
+}
+
+.quotes__user__img {
+    display: flex;
+    justify-content: center;
+}
+
+.quotes__user__img img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+/* QUOTES SECTION ENDS */
+
+/* HELP SECTION STARTS */
+
+.help {
+
+}
+
+.help__heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.help__container {
+    margin: 0 auto;
+    max-width: 743px;
+    width: 100%;
+    padding: 170px 0;
+}
+
+.accordion {
+
+}
+
+.accordion__item {
+
+}
+
+.acc__title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 0 20px 0;
+}
+
+
+.acc__title:before {
+    content: "+";
+    font-size: 32px;
+    margin: 0 24px;
+}
+
+
+.acc__active__title:before {
+    content: "-";
+}
+
+.acc__content {
+    padding: 10px 15px 16px 80px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc__text {
+    margin-right: 60px;
+    max-width: 391px;
+}
+
+.acc__content.show {
+    display: flex;
+    border-bottom: 1px solid #D8E3FE;
+}
+
+/* HELP SECTION ENDS */
+
+
+/* GET STARTED SECTION STARTS */
+
+.get__started {
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    padding: 92px 0;
+    color: #FFF;
+}
+
+.get__started__container {
+    max-width: 712px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    background-image: url('img/get__started__clouds.png');
+}
+
+.get__started__wrapper {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.get__started__actions {
+    margin-top: 55px;
+    display: flex;
+}
+
+.get__started__clouds {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* GET STARTED SECTION ENDS */
+
