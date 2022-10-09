@@ -51,6 +51,8 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
 }
 
+
+
 .block__text {
     font-size: 15px;
     font-weight: 400;
@@ -75,7 +77,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn {
-    height: 43px;
     padding: 0 15px;
     text-decoration: none;
     font-size: 13px;
@@ -155,6 +156,18 @@ h1, h2, h3, h4, h5 {
     color: #7382A3;
     border: none;
     font-weight: 500;
+}
+
+.btn--mail {
+    padding: 21px 67px;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #4D6CE1;
+    box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+}
+
+.btn--mail:hover {
+    background-color: #6B8BFF;
 }
 
 .no-l-b {
@@ -816,3 +829,103 @@ h1, h2, h3, h4, h5 {
 
 /* GET STARTED SECTION ENDS */
 
+/* MAILING SECTION STARTS */
+
+.mailing {
+    background-color: #FFF;
+    padding: 120px 0;
+}
+
+.mailing__container {
+    max-width: 887px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.mailing__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mailing__block {
+    display: flex;
+}
+
+.mailing__heading {
+    flex-direction: column;
+    max-width: 340px;
+}
+
+.mailing__heading p {
+    max-width: 317px;
+}
+
+.email__filed {
+    padding-left: 23px;
+    padding-right: 57px;
+    margin-right: 14px;
+    border-radius: 5px;
+    background-color: #EFEFF7;
+    color: #7A85AD;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Quicksand';
+    border: none;
+
+}
+
+.mailing__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Quicksand', 'sans-serif';
+    color: #3D4F9F;
+
+}
+
+/* MAILING SECTION ENDS */
+
+/* FOOTER SECTION STARTS */
+
+.footer {
+    padding: 95px 0;
+    border-top: 1px solid #D8E3FE;
+}
+
+.footer__container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__block__wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright__text {
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+.copyright {
+    margin: 15px 0 0 96px;
+}
+
+.footer__wrapper {
+    max-width: 1206px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* FOOTER SECTION ENDS */
