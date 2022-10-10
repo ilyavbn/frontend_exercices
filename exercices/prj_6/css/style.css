@@ -1,0 +1,172 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    background-color: orange;
+}
+
+/* Main styles starts */
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.btn {
+    padding: 21px 44px;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--gradient {
+    background: linear-gradient(81.55deg, #FFC83E 33.93%, #FF7347 73.78%);
+}
+
+.login__btn {
+    padding: 18px 29px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #FF7B00;
+    transition: background-color .3s ease;
+}
+
+.login__btn:hover{
+    background-color: #FA8D29;
+}
+
+/* Main styles ends */
+
+/* Header section starts */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.logo {
+
+}
+
+.texted-logo {
+    font-weight: 400;
+    font-size: 33px;
+    text-decoration: none;
+    line-height: 0.79em;
+    color: #FFF;
+}
+
+.texted-logo span {
+    font-weight: 600;
+}
+
+.header__menu a:last-child {
+    margin-right: 0;
+}
+
+.header__menu__item {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 56px;
+}
+
+/* Header section ends */
+
+/* Intro section starts */
+
+.intro {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro__wrapper {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.hot-offer__btn {
+    background-color: #FFF;
+    color: #000;
+    opacity: 0.95;
+    border-radius: 12px;
+    padding: 0 0 0 8px;
+    margin-top: 100px;
+
+}
+
+.hot-offer-fire {
+    position: relative;
+    top: -10px;
+}
+
+.hot-offer__text {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px 23px 15px 10px;
+}
+
+.intro__heading {
+    max-width: 477px;
+}
+
+.intro__title {
+    margin: 25px 0 15px 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1em;
+    text-transform: uppercase;
+}
+
+.intro__subtitle {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.33em;
+    margin-bottom: 120px;
+}
+
+.intro__footnote {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4em;
+    max-width: 300px;
+}
+
+.intro__block {
+
+}
+
+/* Intro section ends */
+
