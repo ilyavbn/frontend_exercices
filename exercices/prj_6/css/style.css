@@ -35,8 +35,11 @@ body {
     justify-content: center;
 }
 
-.btn--gradient {
+.gradient__btn {
     background: linear-gradient(81.55deg, #FFC83E 33.93%, #FF7347 73.78%);
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    font-weight: 700;
+
 }
 
 .login__btn {
@@ -49,6 +52,12 @@ body {
 
 .login__btn:hover{
     background-color: #FA8D29;
+}
+
+.gray__txt-13 {
+    font-size: 13px;
+    font-weight: 300px;
+    color: #45515F;
 }
 
 /* Main styles ends */
@@ -143,7 +152,7 @@ body {
 }
 
 .intro__title {
-    margin: 25px 0 15px 0;
+    margin: 20px 0 0 0;
     font-size: 48px;
     font-weight: 600;
     line-height: 1.1em;
@@ -168,5 +177,69 @@ body {
 
 }
 
+.credit-processing__rectangle {
+    background-color: #FFF;
+    opacity: 0.9;
+    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    max-width: 428px;
+    padding: 30px 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.ranges__dummy {
+    background-color: gray;
+    width: 381px;
+    height: 289px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.make-request__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.processing-result {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+}
+
+.result__block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.result__subblock {
+}
+    
+.result__content {
+    color:orange;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+.result__title {
+    margin: 0 0 5px 0;
+}
+
+.girl__bg {
+    position: absolute;
+    top: 52.7%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+}
 /* Intro section ends */
 
