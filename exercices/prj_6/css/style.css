@@ -12,7 +12,7 @@ body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     color: #FFF;
-    background-color: orange;
+    background-color: #F6F9FC;
 }
 
 /* Main styles starts */
@@ -20,6 +20,20 @@ body {
 .container {
     margin: 0 auto;
     width: 1280px;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: #45515F;
+}
+
+.section__footnote {
+    font-size: 13px;
+    font-weight: 300px;
+    color: #45515F;
+    text-align: center;
 }
 
 .btn {
@@ -58,6 +72,18 @@ body {
     font-size: 13px;
     font-weight: 300px;
     color: #45515F;
+}
+
+.yellow__span span {
+    color: #FFC83E;
+}
+
+.orange__span span {
+    color: #FF7B00;
+}
+
+.red__span span {
+    color: #FA5914;
 }
 
 /* Main styles ends */
@@ -240,6 +266,76 @@ body {
     left: 53%;
     transform: translate(-50%, -50%);
 }
-}
+
 /* Intro section ends */
+
+/* Best offer section starts */
+
+.best__offer {
+    padding: 55px 0;
+}
+
+.best__offer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px 0 45px 0;
+}
+
+.best__offer__block {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    opacity: 0.95;
+    box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+    backdrop-filter: blur(6px);
+    min-width: 408px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    padding: 30px 0;
+}
+
+.best__offer__block__title {
+    color: #45515F;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+}
+
+
+.best__offer__block__content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.b__o__b__content__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    color: #45515F;
+}
+
+.b__o__b__content__wrapper:first-child {
+    margin-bottom: 15px;
+}
+
+.b__o__b__content__wrapper span {
+    font-weight: 500;
+}
+
+.b__o__b__content__wrapper img {
+    margin-right: 10px;
+}
+
+.b__o__b__content__wrapper p{
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+
+/* Best offer section ends */
+
 
