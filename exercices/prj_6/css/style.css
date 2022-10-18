@@ -203,7 +203,8 @@ body {
 
 }
 
-.credit-processing__rectangle {
+
+.credit-ranges {
     background-color: #FFF;
     opacity: 0.9;
     box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
@@ -216,14 +217,30 @@ body {
     margin-top: 65px;
 }
 
-.ranges__dummy {
+.credit-ranges__wrapper {
+		color: #000;
+		text-align: left;
     background-color: gray;
     width: 381px;
     height: 289px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+		flex-direction: column;
 }
+
+.credit-sum__title {
+	font-size: 22px;
+	font-weight: 400;
+	color: #45515F;
+	margin-bottom: 20px;
+}
+
+
+.credit-sum__values {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 
 .make-request__btn {
     display: flex;
@@ -267,6 +284,35 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.credit__slider {
+	display: flex;
+	position: relative;
+	height: 42px;
+
+}
+
+.credit__slider .slider {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.range-num {
+	height: 24px;
+	width: 10px;
+	background-color: #fff;
+	max-width: 120px;
+	position: absolute;
+	left: 0;
+}
+
+.slider {
+	-webkit-appearance: none;
+}
+
+
+
+
 /* Intro section ends */
 
 /* Best offer section starts */
@@ -284,6 +330,7 @@ body {
 
 .best__offer__block {
     display: flex;
+	position: relative;
     flex-direction: column;
     background-color: #FFF;
     opacity: 0.95;
@@ -334,6 +381,51 @@ body {
     margin: 0;
 }
 
+.ribbon__wrapper {
+	width: 70px;
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.ribbon {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+  color: #FFF;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform:    rotate(-45deg);
+  -ms-transform:     rotate(-45deg);
+  -o-transform:      rotate(-45deg);
+  position: relative;
+  padding: 2px 0;
+  left: -24px;
+  top: 5px;
+  width: 100px;
+  
+}
+
+.ribbon:before {
+  left: 0;
+}
+.ribbon:after {
+  right: 0;
+}
+
+.ribbon-yellow {
+	background-color: #FFC83E;
+}
+
+.ribbon-orange {
+	background-color: #FF7B00;
+}
+
+.ribbon-red {
+	background-color: #FA5914;
+}
 
 
 /* Best offer section ends */

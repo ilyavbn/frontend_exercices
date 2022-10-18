@@ -1,0 +1,176 @@
+*, *::before, *::after {
+	box-sizing:border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+padding: 0;
+margin: 0;
+}
+
+h2 {
+	font-size: 46px;
+	font-weight: 300;
+	margin: 50px 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	font-size: 16px;
+	font-weight: 300;
+    color: #000;
+    background-color: #F6F9FC;
+}
+
+.basketball-history {
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1020px;
+}
+
+.text {
+	text-indent: 50px;
+}
+
+/* Header section starts */
+
+.header {
+	border-bottom: 1px solid gray;
+}
+
+.header__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+}
+
+.header__block {
+	display: flex;
+}
+
+.logo {
+	filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header__menu a {
+	margin-right: 45px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	border-radius: 5px;
+	padding: 1px 5px;
+	transition: all .3s ease;
+}
+
+.header__menu a:hover {
+	background-color: #FFE0CF;
+}
+
+
+.header__menu a:last-child {
+	margin-right: 0;
+}
+
+/* Header section ends */
+
+/* Content section starts  */
+
+.content {
+	padding: 50px 0;
+}
+
+/* Content section ends  */
+
+/* Content table section starts */
+
+.content__list {
+	width: 500px;
+	background-color: #ECEFF6;
+	border-radius: 10px;
+	padding: 50px 50px;
+}
+
+.content__list__title {
+	margin-bottom: 25px;
+}
+
+.content__list li {
+	list-style: none;
+	background-image: url('../img/list__icn.svg');
+	margin-bottom: 30px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 16px;
+	padding-left:  25px;
+
+}
+
+.content__list li:last-child {
+	margin-bottom: 0;
+}
+
+.content__list__item {
+	font-size: 15px;
+	text-decoration: none;
+	color: #5ABEF1;
+	cursor: pointer;
+}
+
+.rule {
+	margin-bottom: 20px;
+}
+
+.rule:last-child {
+	margin-bottom: 0;
+}
+
+/* Content table section ends */
+
+/* Footer section starts */
+
+.footer {
+	border-top: 1px solid gray;
+	padding: 50px 0;
+}
+
+.footer__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer__block {
+	margin-bottom: 25px;
+}
+
+.footer__block:last-child {
+	margin-bottom: 0;
+}
+
+.soc {
+	display: flex;
+}
+
+.soc__link {
+	margin-right: 15px;
+}
+
+.soc__link:last-child {
+	margin-right: 0;
+}
+
+.soc__img {
+	width: 30px;
+	height: 30px;
+}
+
+
+/* Footer section ends */
